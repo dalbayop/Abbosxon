@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;  
+    
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: #fff;
+}
+.text{
+    position: fixed;
+    width: 1500px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+.text .logo{
+    padding: 30px 300px;
+}
+
+.text ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+} 
+.text ul li{
+    list-style: none;
+    font-size: 18px;
+    font-weight:bold;
+}
+.text ul li a{
+    color: #fff;
+}
